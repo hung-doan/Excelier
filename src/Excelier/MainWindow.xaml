@@ -5,8 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Excelier"
         mc:Ignorable="d"
-        Title="Excelier - Data transformation" Height="350" Width="525" WindowStartupLocation="CenterScreen">
-    <Grid>
         
+        Title="Excelier - Data transformation" Height="350" Width="525" WindowStartupLocation="CenterScreen" Foreground="White">
+
+    <Grid Background="#2D2D30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="20*" />
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Column="0" Row="0" ColumnSpan="2" >
+            <Menu x:Name="menu" HorizontalAlignment="Left" Height="15" Margin="2px" VerticalAlignment="Top" Background="Transparent" >
+                <MenuItem Foreground="White" Header="File">
+                    <MenuItem Foreground="Black"  Header="New" >
+                        <MenuItem.Icon>
+                            <Image Source="Resources/Images/new_ico.png" Width="14"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Foreground="Black"  Header="Open" />
+                    <Separator />
+                    <MenuItem Foreground="Black"  Header="Save">
+                        <MenuItem.Icon>
+                            <Image Source="Resources/Images/save_ico.png" Width="14"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Foreground="Black" Header="Save As" />
+                    <Separator />
+                    <MenuItem  Foreground="Black"  Header="Exit" >
+                        <MenuItem.Icon>
+                            <Image Source="Resources/Images/close_ico.png" Width="14"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </Grid>
+
+        <Grid Column="0" Row="1" Margin="0,10,0,0" Background="#252526"  >
+            <Button x:Name="button" 
+                    Content="Button"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="75"/>
+        </Grid>
+        <GridSplitter x:Name="gridSplitter" 
+                       Margin="0,10,0,0"
+                      Grid.Row="1"
+                      Grid.Column="1" 
+                      HorizontalAlignment="Left" 
+                      ResizeDirection="Columns"
+                      VerticalAlignment="Stretch" 
+                      Width="3"/>
+        <Grid  Column="1" Row="1" Margin="3,10,0,0" Background="#1E1E1E">
+            <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+
     </Grid>
 </Window>

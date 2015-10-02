@@ -38,6 +38,7 @@
     <ApplicationIcon>excelier.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -100,11 +101,21 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Helpers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="excelier.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\close_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\save_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\new_ico.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
