@@ -12,10 +12,10 @@ Includes the following features:
 + Input filtering
 + Copy data from one file/sheet to other
 + Define ouput template
-+ Export to seperated files
-+ Export to standard csv,...
-+ Import from csv
-+ Import from SQL Server
++ Export ouput to seperated files
++ Export ouput to standard csv,...
++ Import input from csv
++ Import input from SQL Server
 + Expore/import configuartion file (which will helpful if you want to share your config to your partners)
 + Email sender (send output file to a pre-defined receiver list)
 + ...and more...
