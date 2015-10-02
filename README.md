@@ -24,15 +24,17 @@ I'm considering some more special tools: apply machine learning and Statistical 
 
 **NOTE:**
 + **This project is under `requirement gathering process`. It will take a week or more.**
-**SPEC**
+
+**Spec**
 + Target OS: Windows 7, Windows 8, Windows 10
 + .NET Framework 4.0, WPF
-**Milestone**
+
+**Milestones**
 + Oct, 2015: Feature/UI `design`, App `Architect`
 + Nov, 2015: release  Pre-alpha version `Pre-alpha-v0.1.0`
 + Dec, 2015: release alpha version `alpha-v0.1.0`
 + Jan, 2016: release beta version `beta-v0.1.0`
-+ 
++ ..
 
 
 
