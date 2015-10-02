@@ -2,7 +2,7 @@
 Excel transforming toolkit. Which is used to transform data in Excel files (*.xls, *.xlsx)
 This is my "pet project", I hope this tools will help our/your job in data analysis be more easier.
 
-Of couser, This project is not for commercial purposse. If you have some great ideas, please feel free to contact me.
+This project is not for commercial purposse. If you have some great ideas, please feel free to contact me.
  
 
 **Description:**
