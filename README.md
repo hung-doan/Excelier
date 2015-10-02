@@ -1,15 +1,36 @@
 # Excelier#
 Excel transforming toolkit. Which is used to transform data in Excel files (*.xls, *.xlsx)
+This is my "pet project", I hope this tools will help our/your job in data analysis be more easier.
 
-Description:
+Of couser, This project is not for commercial purposse. If you have some great ideas, please feel free to contact me.
+ 
+
+**Description:**
 This project is an data preprocessing toolkits. This is an application run on Windows OS, which includes the following features:
 + User can define rules to transform data: row to column, column to row, use Excel function(Ex: left(), right(),..), etc..
++ Input filtering
 + Copy data from one file/sheet to other
 + Define ouput template
-+ ...
++ Export to seperated files
++ Export to standard csv,...
++ Import from csv
++ Import from SQL Server
++ Expore/import configuartion file (which will helpful if you want to share your config to your partners)
++ Email sender (send output file to a pre-defined receiver list)
++ ...and more...
 
-NOTE:
-+ This project is under `requirement gathering process`. It will take a week or more.
+I'm considering some more special tools: apply machine learning and Statistical probability to check if there is something wrong in your data, or use some simple algorithm to pre-process your data. 
+
+**NOTE:**
++ **This project is under `requirement gathering process`. It will take a week or more.**
+**SPEC**
++ Target OS: Windows 7, Windows 8, Windows 10
++ .NET Framework 4.0, WPF
+**Milestone**
++ Oct, 2015: Feature/UI `design`, App `Architect`
++ Nov, 2015: release  Pre-alpha version `Pre-alpha-v0.1.0`
++ Dec, 2015: release alpha version `alpha-v0.1.0`
++ Jan, 2016: release beta version `beta-v0.1.0`
 + 
 
 
