@@ -6,7 +6,8 @@ Of couser, This project is not for commercial purposse. If you have some great i
  
 
 **Description:**
-This project is an data preprocessing toolkits. This is an application run on Windows OS, which includes the following features:
+This project is an data preprocessing toolkits. The only purpose of this tool is deduce your time on data preprocessing when working with multiple datasource and different data format.
+Includes the following features:
 + User can define rules to transform data: row to column, column to row, use Excel function(Ex: left(), right(),..), etc..
 + Input filtering
 + Copy data from one file/sheet to other
