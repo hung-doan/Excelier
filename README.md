@@ -14,9 +14,9 @@ Includes the following features:
 + Define ouput template
 + Export ouput to seperated files
 + Export ouput to standard csv,...
-+ Import input from csv
++ Import input from csv, excel(xls, xlsx)
 + Import input from SQL Server
-+ Expore/import configuartion file (which will helpful if you want to share your config to your partners)
++ Expore/import configuartion file (which will be helpful if you want to share your config to your partners)
 + Email sender (send output file to a pre-defined receiver list)
 + ...and more...
 
