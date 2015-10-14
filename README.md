@@ -22,8 +22,6 @@ Includes the following features:
 
 I'm considering some more special tools: apply machine learning and Statistical probability to check if there is something wrong in your data, or use some simple algorithm to pre-process your data. 
 
-**NOTE:**
-+ **This project is under `requirement gathering process`. It will take a week or more.**
 
 **Spec**
 + Target OS: Windows 7, Windows 8, Windows 10
